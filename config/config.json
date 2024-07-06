@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "user",
+    "password": "S3cret",
+    "database": "skill_profile_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port":"3306"
+  },
+  "test": {
+    "username": "root",
+    "password": "S3cret",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "S3cret",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

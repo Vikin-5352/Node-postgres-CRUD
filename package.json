@@ -1,0 +1,25 @@
+{
+  "name": "node-postgres-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development & node index.js",
+    "sequelize": "sequelize-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.2",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "dependencies": {
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4"
+  }
+}
